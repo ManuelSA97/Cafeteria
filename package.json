@@ -1,0 +1,31 @@
+{
+  "name": "cafeteria",
+  "version": "1.0.0",
+  "description": "Aprendiendo SASS, Gulp CSS Grid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManuelSA97/Cafeteria.git"
+  },
+  "author": "Juan Manuel Sandí Angulo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManuelSA97/Cafeteria/issues"
+  },
+  "homepage": "https://github.com/ManuelSA97/Cafeteria#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.1.0",
+    "gulp-sass": "^5.1.0",
+    "postcss": "^8.4.33",
+    "sass": "^1.70.0"
+  },
+  "browsersList": [
+    "last 1 version",
+    "> 1%"
+  ]
+}
