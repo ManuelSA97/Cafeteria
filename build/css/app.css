@@ -1,3 +1,53 @@
+html {
+  font: 62.5%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+}
+
+p {
+  color: #000000;
+  font-size: 2rem;
+}
+
+.contenedor {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 120rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1, h2, h3 {
+  margin: 0 0 5rem 0;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.6rem;
+}
+
+h3 {
+  font-size: 3.2rem;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -308,15 +358,39 @@ template {
   display: none;
 }
 
-html {
-  font: 62.5%;
-  box-sizing: border-box;
+.text-center {
+  text-align: center;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+.bg-primario {
+  background-color: #e8505B;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
+.navegacion {
+  color: #000000;
+}
+
+.header {
+  padding: 5rem 0;
+  position: relative;
+  color: black;
+  font-size: 2rem;
+}
+.header::before {
+  content: "";
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6;
+}
+
+.contenido-header {
+  position: relative;
+}
+
+.header-inicio {
+  background-image: url(/build/img/header_inicio.jpg);
 }
