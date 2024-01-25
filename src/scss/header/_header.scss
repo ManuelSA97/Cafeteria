@@ -1,14 +1,19 @@
 @use 'base/variables' as v;
-@use 'base/mixins';
+@use 'base/mixins' as m;
 
 .header{
     padding: 5rem 0;
     position: relative;
-    @include mixins.color;
+
+    @include m.telefono{
+        padding: 2rem 0;
+    }
+
+
 
     &::before{
         content: '';
-        background-color: v.$negro;
+        background-color: black;
         position: absolute;
         top: 0;
         left: 0;
