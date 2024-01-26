@@ -3,7 +3,7 @@
 .barra {
     display: flex;
     flex-direction: column;
-    @include m.tablet { 
+    @include m.desktop { 
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
@@ -13,7 +13,7 @@
         width: 50%;
         margin: 0 auto;
 
-        @include m.tablet { 
+        @include m.desktop { 
             width: 20rem;
             margin: 0;
         }
