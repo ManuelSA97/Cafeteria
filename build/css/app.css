@@ -367,9 +367,14 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 2.5rem;
 }
 
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.4rem;
+  }
+}
 h2 {
   font-size: 3rem;
   color: #5e311e;
@@ -441,7 +446,7 @@ h3 {
 }
 @media (min-width: 768px) {
   .header {
-    min-height: 70rem;
+    min-height: 37rem;
   }
 }
 @media (min-width: 480px) {
@@ -460,6 +465,19 @@ h3 {
   opacity: 0.6;
 }
 
+@media (min-width: 1024px) {
+  .texto-header {
+    padding-bottom: 2rem;
+  }
+  .texto-header h1 {
+    font-size: 2.4rem;
+  }
+}
+@media (min-width: 2000px) {
+  .texto-header h1 {
+    font-size: 4rem;
+  }
+}
 .contenido-header {
   position: relative;
 }
@@ -477,6 +495,13 @@ h3 {
 
 .header-inicio {
   background-image: url(/build/img/header_inicio.jpg);
+  background-repeat: no-repeat;
+}
+@media (min-width: 1024px) {
+  .header-inicio {
+    background-size: 100%;
+    margin-top: 0;
+  }
 }
 
 .barra {
@@ -508,7 +533,7 @@ h3 {
 @media (min-width: 768px) {
   .contenido-principal {
     padding: 10rem;
-    margin-top: -10rem;
+    margin-top: -6rem;
     position: relative;
   }
 }
