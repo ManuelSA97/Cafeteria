@@ -352,22 +352,6 @@ template {
   display: none;
 }
 
-.text-center {
-  text-align: center;
-}
-
-.bg-primario {
-  background-color: #5e311e;
-}
-
-.margin-negativo-10 {
-  margin-top: -10rem;
-}
-
-.bg-white {
-  background-color: #ffffff;
-}
-
 h1, h2, .heading-blanco, h3 {
   font-family: "Raleway", sans-serif;
   margin: 0 0 5rem 0;
@@ -525,6 +509,11 @@ h3 {
 
 .header-proceso {
   background-image: url(/build/img/header_proceso.avif);
+}
+
+.header-menu {
+  background-image: url(/build/img/header_menu.avif);
+  background-position: right center;
 }
 
 .barra {
@@ -855,4 +844,45 @@ h3 {
   width: 50%;
   height: 5px;
   background-color: #C39C63;
+}
+
+.conoce h2 {
+  font-size: 2.4rem;
+}
+
+.texto {
+  margin-bottom: 5rem;
+}
+
+.contenido-menu {
+  text-align: left;
+}
+@media (min-width: 1024px) {
+  .contenido-menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: end;
+    justify-content: center;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-primario {
+  background-color: #5e311e;
+}
+
+.margin-negativo-10 {
+  margin-top: -10rem;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.padding-bottom-0 {
+  padding-bottom: 0;
 }

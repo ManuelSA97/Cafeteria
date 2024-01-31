@@ -1,0 +1,22 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+
+.conoce{
+    h2{
+        font-size: 2.4rem;
+    }
+}
+
+.texto{
+    margin-bottom: 5rem;
+}
+
+.contenido-menu{
+    text-align: left;
+    @include m.desktop { 
+        @include m.grid(2,2rem);
+        align-items:end;
+        justify-content: center;
+    }  
+}
