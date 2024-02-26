@@ -1,0 +1,1 @@
+Sitio Web de una Cafetería, con páginas internas para ver su menú, información, proceso de creación, galería y reservación. Creada con HTML y SCSS, utilizando BEM y GULP. Sitio: https://cafeteria-jmsa.netlify.app/
